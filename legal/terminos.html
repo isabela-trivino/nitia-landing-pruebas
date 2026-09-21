@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[PRUEBAS] Términos de uso — Nítia</title>
+<meta name="robots" content="noindex"><!-- Quitar cuando el texto sea el definitivo -->
+<link rel="icon" href="../src/img/logo/nitia-isotipo.svg" type="image/svg+xml">
+<!-- TIPOGRAFÍA · autoalojada. Ver la explicación completa en index.html. -->
+<link rel="preload" href="../src/fuentes/manrope-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../src/fuentes/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../src/fuentes/fuentes.css?v=2026-09-15">
+
+<!-- Hojas modulares, en paralelo y en orden de cascada. -->
+<link rel="stylesheet" href="../css/01-tokens.css?v=2026-09-15">
+<link rel="stylesheet" href="../css/02-base.css?v=2026-09-15">
+<link rel="stylesheet" href="../css/03-componentes.css?v=2026-09-15">
+<link rel="stylesheet" href="../css/04-secciones.css?v=2026-09-21b">
+<link rel="stylesheet" href="../css/05-utilidades.css?v=2026-09-15">
+<link rel="stylesheet" href="../css/06-consentimiento.css?v=2026-09-21">
+</head>
+<body data-modo="presentacion">
+<div class="grano" aria-hidden="true"></div>
+
+<header class="cabecera" data-fijada="si">
+  <div class="envoltura cabecera__fila">
+    <a class="marca" href="../index.html" aria-label="Nítia — inicio">
+      <img src="../src/img/logo/nitia-logo.svg" alt="" width="820" height="291">
+    </a>
+  </div>
+</header>
+
+<main class="envoltura legal">
+  <a class="legal__volver" href="../index.html">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M19 12H6M12 19l-7-7 7-7"/>
+    </svg>
+    Volver a la página principal
+  </a>
+
+  <h1>Términos de uso</h1>
+  <p><em>Última actualización: [fecha].</em></p>
+
+  <div style="background:var(--superficie); border:1px solid var(--filete); border-radius:var(--r-md); padding:var(--e-5); margin:var(--e-6) 0">
+    <p style="margin:0"><strong>Documento pendiente de redacción.</strong> Estructura montada,
+    texto legal por redactar.</p>
+  </div>
+
+  <h2>1 · Objeto</h2>
+  <p><em>[Qué regula este documento y a qué servicios se aplica.]</em></p>
+
+  <h2>2 · Qué es y qué no es Nítia</h2>
+  <p>Nítia es una herramienta de acompañamiento. <strong>No diagnostica, no es terapia ni
+  tratamiento y no sustituye la valoración de un profesional sanitario.</strong> Debe figurar
+  aquí con la misma claridad con la que figura en la página principal.</p>
+
+  <h2>3 · Condiciones de la suscripción</h2>
+  <p><em>[Precio, periodicidad, renovación, cancelación y derecho de desistimiento.]</em></p>
+
+  <h2>4 · Uso adecuado</h2>
+  <p><em>[Qué usos están permitidos y cuáles no.]</em></p>
+
+  <h2>5 · Propiedad intelectual</h2>
+  <p><em>[Titularidad de los contenidos, la marca y el software.]</em></p>
+
+  <h2>6 · Responsabilidad</h2>
+  <p><em>[Límites de responsabilidad, redactados sin contradecir el punto 2.]</em></p>
+
+  <h2>7 · Ley aplicable</h2>
+  <p><em>[Legislación española y fuero.]</em></p>
+</main>
+
+<footer class="pie">
+  <div class="envoltura">
+    <div class="pie__inferior" style="border:0; padding-top:0">
+      <span>© 2026 Nítia · Ana Cerrato Martínez</span>
+      <span><a href="#" data-cookies="configurar">Configurar cookies</a> · <a href="../index.html">Volver a Nítia</a></span>
+    </div>
+  </div>
+</footer>
+<!-- ═════════════════════════════════════════════════════════════════════
+     CONSENTIMIENTO · marcado reutilizable (prototipo, 21-09-2026)
+     TEXTOS EN BORRADOR: los redacta el jurista y los aprueba Ana. Lo que
+     hay aquí sirve para diseñar con contenido real, no para publicar.
+     Pendiente de confirmar: si hay píxel de Meta, se añade a «Publicidad».
+     ═════════════════════════════════════════════════════════════════════ -->
+
+<!-- Primera capa. No es modal: no bloquea la lectura de la página, pero
+     tampoco se carga nada de Google hasta que la persona decide. Sin botón
+     de cerrar: cerrar sin elegir no puede contar como aceptar. -->
+<!-- Se nombra la marca, no a la titular: la guía de la AEPD (2024) no exige
+     la denominación social en la primera capa si los datos completos están en
+     el aviso legal y la identidad se desprende del propio sitio (dominio y
+     marca coinciden: nitia.app / Nítia). Ambas cosas se cumplen. -->
+<section id="aviso-cookies" class="aviso-cookies" aria-labelledby="aviso-cookies-titulo" hidden>
+  <h2 id="aviso-cookies-titulo">Tu privacidad</h2>
+  <p>En Nítia queremos usar cookies de Google para dos cosas: <strong>medir</strong> cuántas personas visitan la
+     página y qué partes leen, y <strong>publicidad</strong>: saber si nuestros
+     anuncios funcionan y mostrarte anuncios de Nítia en otros sitios.</p>
+  <p>Recogen datos de navegación, como las páginas que visitas y el tipo de
+     dispositivo. Google puede tratarlos fuera de la Unión Europea. No se
+     activa nada hasta que decidas.
+     <a href="cookies.html">Política de cookies</a></p>
+  <div class="aviso-cookies__acciones">
+    <button class="boton" type="button" data-cookies="rechazar">Rechazar</button>
+    <button class="boton" type="button" data-cookies="aceptar">Aceptar</button>
+    <button class="aviso-cookies__configurar" type="button" data-cookies="configurar">Configurar</button>
+  </div>
+</section>
+
+<!-- Panel de configuración. <dialog> nativo: gestiona el foco, se cierra
+     con Esc y el lector de pantalla lo anuncia como diálogo. Todo viene
+     DESMARCADO: nada premarcado es requisito, no preferencia. -->
+<dialog id="panel-cookies" class="panel-cookies" aria-labelledby="panel-cookies-titulo">
+  <div class="panel-cookies__cuerpo">
+    <h2 id="panel-cookies-titulo">Configurar cookies</h2>
+    <p class="panel-cookies__intro">Elige qué aceptas. Puedes cambiarlo cuando
+       quieras desde «Configurar cookies», al pie de cada página.</p>
+
+    <div class="categoria">
+      <h3>Necesarias</h3>
+      <span class="categoria__fija">Siempre activas</span>
+      <p>Guardan tu decisión sobre las cookies durante 12 meses, para no
+         preguntarte en cada visita. No te identifican y no salen de tu
+         navegador.</p>
+    </div>
+
+    <div class="categoria">
+      <h3><label for="cookies-analitica">Analítica</label></h3>
+      <input class="interruptor" type="checkbox" role="switch" id="cookies-analitica">
+      <p>Nos dicen cuántas personas visitan la página, desde dónde llegan, qué
+         secciones leen y qué preguntas abren. Proveedor: Google (Google
+         Analytics). Duración: 13 meses.</p>
+    </div>
+
+    <div class="categoria">
+      <h3><label for="cookies-publicidad">Publicidad</label></h3>
+      <input class="interruptor" type="checkbox" role="switch" id="cookies-publicidad">
+      <p>Sirven para saber si nuestros anuncios funcionan y para mostrarte
+         anuncios de Nítia en otros sitios. Si tienes abierta tu cuenta de
+         Google, Google puede relacionarlas con ella. Proveedor: Google
+         (Google Ads). Duración: hasta 13 meses.</p>
+    </div>
+  </div>
+
+  <div class="panel-cookies__acciones">
+    <button class="boton" type="button" data-cookies="rechazar">Rechazar todo</button>
+    <button class="boton" type="button" data-cookies="aceptar">Aceptar todo</button>
+    <button class="boton boton--fantasma boton--guardar" type="button" data-cookies="guardar">Guardar mi selección</button>
+  </div>
+</dialog>
+
+<!-- Las páginas legales también llevan el aviso: se puede llegar a ellas
+     directamente desde un buscador. -->
+<script src="../src/js/medicion.js?v=2026-09-21" defer></script>
+<script src="../src/js/consentimiento.js?v=2026-09-21" defer></script>
+</body>
+</html>
